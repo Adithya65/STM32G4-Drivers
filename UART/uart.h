@@ -48,5 +48,11 @@
 
 #define SET_PIN4_USART1_TX				( 0x7 << 16 )
 #define SET_PIN5_USART1_RX				( 0x7 << 20 )
+#define EN_RX							( 0x1 << 2 )
+#define EN_TX							( 0x1 << 3 )
+#define SET_WORD_LEN_M0				   ~(( 0x1 << 12 )| ( 0x1 << 28 ))
+#define EN_PARITY_CTRL				    ( 1 << 10 )
+#define SET_EVEN_PARITY				   ~( 1 << 9 )
+#define SET_STOP_BITS0				   ~(( 0x1 << 12 )| ( 0x1 << 13 ))
 
-
+	
