@@ -6,7 +6,7 @@
 
 #define USART1_BASE_ADD                 ( 0x40004400 )
 #define GPIOC_BASE_ADD					( 0x48000800 )
-#define RCC_BASE_ADD					( 0X40021000 )
+#define RCC_BASE_ADD					( 0x40021000 )
 
 #define RCC_APHB2ENR_OFFSET 			( 0x4C )
 #define RCC_APB2ENR_OFFSET				( 0x60 )
